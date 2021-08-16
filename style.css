@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: #cdcdce;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#benderanegara, #profilgithub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+.profil, .flag{
+    background-color: #ffff;
+    margin: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+}
+.profildetail, h3{
+    text-align:center;
+    padding: 2px 16px;
+}
+img{
+    border-radius: 5px;
+    width:100%
+}
+/* responsive */
+@media only screen and (max-width: 600px){
+    .flag, .profil {
+        width: 50%;
+        font-size:xx-small;
+    }
+}
